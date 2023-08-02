@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clase 3</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__container">
+                <div class="nav__logo">
+                    <h2>Logo</h2>
+                </div>
+                <ul class="nav__ul">
+                    <li class="nav__ul-li"><a href="#">Contacto</a></li>
+                    <li class="nav__ul-li"><a href="horarios.html">Horarios de atencion</a></li>
+                    <li class="nav__ul-li"><a href="#">Acerca de</a></li>
+                    <li class="nav__ul-li"><a href="principal.html">Madrid912</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="contenido formulario">
+        
+        <main class="contacto__form">
+            <h2>Comuniquese conmigo</h2>
+            <form action="#" name="contactForm" id="contactFormId">
+                <input type="text" placeholder="Ingrese nombre" class="textbox">
+                <input type="text" placeholder="Ingrese apellido" class="textbox">
+                <input type="email" placeholder="Ingrese email" class="textbox">
+                <div class="form__genero">
+                    <label for="radiobox_masc" false>
+                        <input name ="sexo" type="radio" id="radiobox_masc" value="masculino">
+                        Masculino
+                    </label>
+                    <label for="radiobox_fem">
+                        <input name ="sexo" type="radio" id="radiobox_fem" value="femenino">
+                        Femenino
+                    </label>
+                    <label for="radiobox_other">
+                        <input name ="sexo" type="radio" id="radiobox_other" value="otro">
+                        Otro
+                    </label>
+                </div>
+                <div class="form__pais">
+                    <label for="pais">
+                        Seleccione su país de origen
+                        <select name="selectorPais" id="pais">
+                            <option value="arg">Argentina</option>
+                            <option value="fra">Francia</option>
+                            <option value="bra">Brazil</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form__comentario">
+                    <label for="comentario">Ingrese su queja o comentario</label>
+                    <textarea name="" id="comentario" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form__botones">
+                    <input type="submit" value="Enviar" id="submitButton">
+                    <input type="reset" value="Restablecer" id="resetButton">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer class="relative">
+        <div class="footer__text">
+            <h2>Lautaro Fernandez - Programador Junior©</h2>
+        </div>
+        <div class="footer__logo">
+            <a href="https://github.com/Lautaro24Fer/RD_AAPJul2023" target="_blank">
+                <img src="img/github.png" alt="github" class="boton">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
